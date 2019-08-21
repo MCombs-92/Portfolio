@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home/home.component';
+import { HomeComponent } from './Home/home/home.component';
 
 @NgModule({
   declarations: [
