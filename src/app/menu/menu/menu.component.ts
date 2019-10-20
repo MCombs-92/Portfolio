@@ -12,7 +12,7 @@ export class MenuComponent implements OnInit {
 
   menus: Menu[] = [
     new Menu("Home", "/home"),
-    new Menu("About", "#")
+    new Menu("About", "/about")
 
   ]
 
