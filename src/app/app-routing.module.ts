@@ -6,12 +6,16 @@ import { AppComponent } from './app.component'
 import { HomeComponent} from './home/home/home.component'
 
 import {AboutComponent } from './about/about.component'
+import {ProjectsComponent} from './projects/projects.component'
+import {SummaryComponent} from './summary/summary.component'
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
 
-  {path: 'about', component: AboutComponent }
+  {path: 'about', component: AboutComponent },
+  {path: 'projects', component: ProjectsComponent},
+  {path: 'summary', component: SummaryComponent}
 ];
 
 @NgModule({
