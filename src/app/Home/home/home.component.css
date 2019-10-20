@@ -1,7 +1,29 @@
+body {
+    background-color: #f2f2f2;
+}
+
+#content {
+    background-color: #f2f2f2;
+    Width: 100vw;
+    height: 100vh;
+}
+
+
 h2 {
-    font-size: 48pt;
+    font-size: 72pt;
+    color:  #330033;
     width:75%;
     margin: auto;
-    margin-top: 33vh;
     text-align: center;
+    position: relative;
+    top: 33vh;
+}
+
+p {
+    font-size: 24pt;
+    width:75%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 33vh;
 }

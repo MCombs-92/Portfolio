@@ -11,13 +11,15 @@ import { HomeComponent } from './home/home/home.component';
 
 import { MenuComponent } from './menu/menu/menu.component';
 import { MenuItemComponent } from './menu/menu/menu-item.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MenuComponent,
-    MenuItemComponent
+    MenuItemComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
