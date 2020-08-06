@@ -5,25 +5,54 @@
 #content {
     /* background-color: #f2f2f2; */
     Width: 100%;
-    height: 110vh;
+    height: 80vh;
 }
 
+#about1 {
+    margin: 20vh auto 15vh auto;
+    padding: 0vh 0vw 0vh 0vw;
+    /* height: 70vh; */
+    width: 50%;
+}
 
-h2 {
+#about1 h2 {
+    width:100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
     font-size: 72pt;
-    color:  #330033;
-    width:75%;
-    margin: auto;
-    text-align: center;
-    position: relative;
-    top: 33vh;
+    font-weight: bold;
+    color: #000033;
 }
 
-p {
-    font-size: 24pt;
-    width:75%;
-    margin: auto;
+#about2 {
+ width: 50%;
+ margin: auto;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 225px;
+}
+
+.datawrapper {
+
+}
+
+.datawrapper h6 {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.about2data {
+    background: #000033;
+    height: 125px;
     text-align: center;
-    position: relative;
-    top: 33vh;
+    border: 2.5px solid white;
+}
+
+.about2data p {
+    color: white;
+    font-size: 16pt;
+    font-weight: bold;
+    margin: auto;
+    padding: 50px 0px;
 }
